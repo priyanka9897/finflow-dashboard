@@ -2,13 +2,6 @@
 
 A clean, interactive personal finance dashboard built with React. Designed for the Frontend Intern Assignment.
 
-![Dashboard Preview](https://via.placeholder.com/900x500/0f1117/4f8ef7?text=FinFlow+Dashboard)
-
----
-
-## Live Demo
-
-> Deploy to Vercel/Netlify after cloning — one-click deploy.
 
 ---
 
