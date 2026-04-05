@@ -1,0 +1,37 @@
+export const initialTransactions = [
+  { id: 1,  desc: "Monthly Salary",      amount: 5800, type: "income",  category: "Salary",        date: "2025-02-01" },
+  { id: 2,  desc: "Rent Payment",        amount: 1500, type: "expense", category: "Housing",       date: "2025-02-03" },
+  { id: 3,  desc: "Groceries",           amount: 215,  type: "expense", category: "Food",          date: "2025-02-05" },
+  { id: 4,  desc: "Freelance Project",   amount: 1100, type: "income",  category: "Freelance",     date: "2025-02-08" },
+  { id: 5,  desc: "Netflix",             amount: 18,   type: "expense", category: "Entertainment", date: "2025-02-09" },
+  { id: 6,  desc: "Gym Membership",      amount: 45,   type: "expense", category: "Health",        date: "2025-02-10" },
+  { id: 7,  desc: "Electricity Bill",    amount: 90,   type: "expense", category: "Utilities",     date: "2025-02-12" },
+  { id: 8,  desc: "Restaurant Dinner",   amount: 82,   type: "expense", category: "Food",          date: "2025-02-14" },
+  { id: 9,  desc: "Uber Rides",          amount: 35,   type: "expense", category: "Transport",     date: "2025-02-15" },
+  { id: 10, desc: "Amazon Shopping",     amount: 145,  type: "expense", category: "Shopping",      date: "2025-02-18" },
+  { id: 11, desc: "Monthly Salary",      amount: 5800, type: "income",  category: "Salary",        date: "2025-03-01" },
+  { id: 12, desc: "Rent Payment",        amount: 1500, type: "expense", category: "Housing",       date: "2025-03-02" },
+  { id: 13, desc: "Groceries",           amount: 198,  type: "expense", category: "Food",          date: "2025-03-04" },
+  { id: 14, desc: "Spotify",             amount: 10,   type: "expense", category: "Entertainment", date: "2025-03-06" },
+  { id: 15, desc: "Doctor Visit",        amount: 120,  type: "expense", category: "Health",        date: "2025-03-09" },
+  { id: 16, desc: "Freelance Project",   amount: 900,  type: "income",  category: "Freelance",     date: "2025-03-11" },
+  { id: 17, desc: "Gas Station",         amount: 55,   type: "expense", category: "Transport",     date: "2025-03-13" },
+  { id: 18, desc: "Online Course",       amount: 199,  type: "expense", category: "Entertainment", date: "2025-03-15" },
+  { id: 19, desc: "Coffee Shop",         amount: 44,   type: "expense", category: "Food",          date: "2025-03-17" },
+  { id: 20, desc: "Internet Bill",       amount: 60,   type: "expense", category: "Utilities",     date: "2025-03-19" },
+  { id: 21, desc: "Monthly Salary",      amount: 5800, type: "income",  category: "Salary",        date: "2025-04-01" },
+  { id: 22, desc: "Rent Payment",        amount: 1500, type: "expense", category: "Housing",       date: "2025-04-02" },
+  { id: 23, desc: "Groceries",           amount: 175,  type: "expense", category: "Food",          date: "2025-04-05" },
+  { id: 24, desc: "Freelance Project",   amount: 1400, type: "income",  category: "Freelance",     date: "2025-04-07" },
+  { id: 25, desc: "Pharmacy",            amount: 38,   type: "expense", category: "Health",        date: "2025-04-09" },
+  { id: 26, desc: "Electricity Bill",    amount: 88,   type: "expense", category: "Utilities",     date: "2025-04-11" },
+  { id: 27, desc: "Movie Tickets",       amount: 32,   type: "expense", category: "Entertainment", date: "2025-04-13" },
+  { id: 28, desc: "Taxi",                amount: 28,   type: "expense", category: "Transport",     date: "2025-04-15" },
+  { id: 29, desc: "Clothing",            amount: 220,  type: "expense", category: "Shopping",      date: "2025-04-17" },
+  { id: 30, desc: "Bonus",               amount: 800,  type: "income",  category: "Salary",        date: "2025-04-20" },
+];
+
+export const CATEGORIES = [
+  "Food", "Housing", "Transport", "Entertainment",
+  "Health", "Salary", "Freelance", "Shopping", "Utilities", "Other"
+];
