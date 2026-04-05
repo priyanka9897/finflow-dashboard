@@ -9,7 +9,7 @@ import { useApp } from "../context/AppContext";
 
 export default function Insights() {
   const { state } = useApp();
-  const { income, expense, balance, savingsRate } = useSummary();
+  const { balance, savingsRate } = useSummary();
   const catTotals = useCategoryTotals();
   const monthly = useMonthlyData();
 
@@ -143,3 +143,4 @@ export default function Insights() {
     </div>
   );
 }
+
