@@ -16,7 +16,7 @@ export default function Sidebar({ activePage, setActivePage }) {
 
   return (
     <aside className="sidebar">
-      <div className="logo">Fin<span>Flow</span></div>
+      <div className="logo">$<span>Tracker</span></div>
 
       <nav className="nav-list">
         {NAV.map(({ id, label, Icon }) => (

@@ -1,5 +1,5 @@
 {
-  "name": "finflow-dashboard",
+  "name": "tracker-dashboard",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
